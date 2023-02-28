@@ -50,6 +50,7 @@ section.pictures img {
 
 }
 figure {
-    background-color: white;
+    color:white;
     text-align: center;
+    width: 60%
 }
