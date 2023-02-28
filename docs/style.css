@@ -1,0 +1,55 @@
+nav {
+    background: white;
+    text-align: center;
+    width: 50%;
+    margin: auto}
+h1 {
+    color: white;
+    text-align: center
+}
+body.index {
+    background: purple
+}
+body.index h1 {
+    color: white;
+    text-align: center;
+}
+body.index h2 {
+    color: white;
+    text-align: center
+}
+body.index h3 {
+    color: white;
+    text-align: center;
+}
+body.index p {
+    color: white;
+    text-align: left;
+}
+
+body.resume {
+    background: gray;
+    font-size: 12px
+}
+
+
+body.gallery {
+    background-color: #1E90FF;
+    font-size: 12px
+}
+section.pictures {
+    display: flex;
+
+
+
+}
+section.pictures img {
+    width: 80%;
+
+
+
+}
+figure {
+    background-color: white;
+    text-align: center;
+}
