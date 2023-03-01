@@ -26,16 +26,26 @@ body.index p {
     color: white;
     text-align: left;
 }
-
+body.index figure{
+ text-align:center;
+ 
+    
+}
+body.index figure{
+border-style:solid;
+border-color:black
+}
 body.resume {
     background: gray;
     font-size: 12px
+   
 }
 
 
 body.gallery {
     background-color: #1E90FF;
-    font-size: 12px
+    font-size: 22px;
+    color:white
 }
 section.pictures {
     display: flex;
@@ -49,7 +59,10 @@ section.pictures img {
 
 
 }
-figure {
+figure.index {
+    border-style:solid;
+    border-color:black;
+    border-width:5px;
     color:white;
     text-align: center;
     width: 60%
