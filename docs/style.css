@@ -40,7 +40,10 @@ body.resume {
     font-size: 12px
    
 }
-
+h.resume{
+    font-size:18px;
+    color:white
+} 
 
 body.gallery {
     background-color: #1E90FF;
