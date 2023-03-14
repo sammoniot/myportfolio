@@ -37,13 +37,11 @@ border-color:black
 }
 body.resume {
     background: gray;
-    font-size: 12px
+    font-size: 18px;
+    color:white
    
 }
-h.resume{
-    font-size:18px;
-    color:white
-} 
+ 
 
 body.gallery {
     background-color: #1E90FF;
@@ -69,4 +67,9 @@ figure.index {
     color:white;
     text-align: center;
     width: 60%
+}
+body.myrelection{
+background:maroon;
+font-size:20px;
+color:white
 }
