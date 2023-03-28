@@ -41,13 +41,17 @@ body.resume {
     color:white
    
 }
- 
+h6.resume{
+font-size:18px;
+color: white
+}
 
 body.gallery {
     background-color: #1E90FF;
     font-size: 22px;
     color:white
 }
+ 
 section.pictures {
     display: flex;
 
@@ -55,8 +59,12 @@ section.pictures {
 
 }
 section.pictures img {
-    width: 80%;
-
+    width: 60%;
+    border-style:solid;
+border-color:white;
+    border-width:50px;
+    color:white;
+    text-align: center
 
 
 }
