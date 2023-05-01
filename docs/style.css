@@ -63,7 +63,7 @@ section.pictures img {
     border-style:solid;
 border-color:white;
     border-width:50px;
-    color:white;
+    color:black;
     text-align: center
 
 
@@ -106,13 +106,14 @@ width:80%;
 height:80%;
 text-align:center
 }
-section.Screenshots{
-width:50%;
-height:50%;
+img.screenshot{
+width:60%;
+height:60%;
+text-align:Center;
 border-style:solid;
 border-color:black
 }
 body.gameanalysis{
-background-color:#95F985;
+background-color: #FFCCCC;
 Color:black
 }
