@@ -41,6 +41,17 @@ body.resume {
     color:white
    
 }
+time.resume{
+ background: gray;
+    font-size: 18px;
+    color:white;
+text-align:right    
+}
+h1.resume{
+font-size:18px;
+color: white;
+text-align:center
+}
 h6.resume{
 font-size:18px;
 color: white
