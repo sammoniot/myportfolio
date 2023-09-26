@@ -1,5 +1,5 @@
 nav {
-    background: white;
+    background: violet;
     text-align: center;
     width: 50%;
     margin: auto}
@@ -36,13 +36,16 @@ border-style:solid;
 border-color:black
 }
 body.resume {
-    background: gray;
+    background: navy;
     font-size: 18px;
     color:white
    
 }
+a.resume{
+color:white    
+}
 time.resume{
- background: gray;
+ background: navy;
     font-size: 18px;
     color:white;
 text-align:right    
