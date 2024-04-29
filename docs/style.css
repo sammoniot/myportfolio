@@ -34,6 +34,9 @@ body.index figure{
 a.link{
 color:white    
 }
+a:visited{
+color:white    
+}
 body.index figure{
 border-style:solid;
 border-color:black
