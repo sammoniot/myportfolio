@@ -1,5 +1,5 @@
 nav {
-    background: violet;
+    background: black;
     text-align: center;
     width: 50%;
     margin: auto}
@@ -87,6 +87,13 @@ border-color:white;
     text-align: center
 
 
+}
+section.picturesi{
+     border-style:solid;
+border-color:black;
+    border-width:50px;
+    color:black;
+    width:45.0%
 }
 figure.index {
     border-style:solid;
