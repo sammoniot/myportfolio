@@ -1,7 +1,7 @@
 window.addEventListener('DOMContentLoaded', bunny, false);
 
 function bunny() {
-    alert ('Hi there! Looks like the page loaded! Yay!');
+    alert ('Welcome to my javascript page!');
     var buttons = document.getElementsByTagName("button")
     buttons[0].addEventListener('click', changeColor, false);
     buttons[1].addEventListener('click', dodgerInfo, false);
