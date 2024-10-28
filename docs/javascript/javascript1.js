@@ -35,7 +35,7 @@ function bunny() {
     alert('17')
      
      var li = document.getElementById("mvp") 
-     li.innerHTML = "17"; 
+     li.innerHTML = "Shohei Ohtani (future NL MVP) 17"; 
      for (var i = 0, length = li.length; i < length; i++){
      li[i].style.backgroundColor = "skyblue"    
      }
@@ -44,7 +44,7 @@ function bunny() {
      alert('13')
      
      var li = document.getElementById("max") 
-     li.innerHTML = "13"; 
+     li.innerHTML = "Max Muncy 13"; 
      for (var i = 0, length = li.length; i < length; i++){
      li[i].style.backgroundColor = "skyblue" 
      }
@@ -53,7 +53,7 @@ function bunny() {
      alert('13')
      
      var li = document.getElementById("max") 
-     li.innerHTML = "13"; 
+     li.innerHTML = " Max Muncy 13"; 
      for (var i = 0, length = li.length; i < length; i++){
      li[i].style.backgroundColor = "skyblue" 
      } 
@@ -62,7 +62,7 @@ function bunny() {
       alert('16')
      
      var li = document.getElementById("will") 
-     li.innerHTML = "16"; 
+     li.innerHTML = "Will Smith 16"; 
      for (var i = 0, length = li.length; i < length; i++){
      li[i].style.backgroundColor = "skyblue" 
      }   
@@ -71,7 +71,7 @@ function bunny() {
       alert('5')
      
      var li = document.getElementById("free") 
-     li.innerHTML = "5"; 
+     li.innerHTML = "Freddie Freeman 5"; 
      for (var i = 0, length = li.length; i < length; i++){
      li[i].style.backgroundColor = "skyblue" 
      }   
@@ -80,7 +80,7 @@ function bunny() {
       alert('37')
      
      var li = document.getElementById("teo") 
-     li.innerHTML = "37"; 
+     li.innerHTML = "Teoscar Hernandez 37"; 
      for (var i = 0, length = li.length; i < length; i++){
      li[i].style.backgroundColor = "skyblue" 
      }   
