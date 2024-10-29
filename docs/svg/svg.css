@@ -1,3 +1,16 @@
+ :root{
+  --blue: #00F;  
+   --transparent: rgba(90, 219, 171, 0)
+ }
+ #bluecircle{
+  fill:var(--blue);   
+ }
+#bluecircle{
+ transition: all 1s ease;   
+}
+
+
 svg:hover #bluecircle{
-    transform:translate(-50%, -10%)
+     fill:var(--purple);
+    transform:translate(-100%, -10%)
 }
