@@ -1,6 +1,6 @@
 window.addEventListener('DOMContentLoaded', bunny, false);
 function bunny() {
-    alert ('Hi there! Looks like the page loaded! Yay!');
+    
     var buttons = document.getElementsByTagName("input")
     buttons[0].addEventListener('click', nlcs1, false)
     buttons[1].addEventListener('click', nlcs2, false)
@@ -10,15 +10,22 @@ function bunny() {
     buttons[5].addEventListener('click', nlcs6, false)
     
 }
-function toggle() {
-    var id = this.id;
-    switch (id) {
-        case "CHARtoggle": {
-            var chars = document.getElementsByClassName("color");
-            for (var i = 0; i < chars.length; i++) {
-                chars[i].classList.toggle("on")
-                pars[i].style.backgroundColor ="DodgerBlue"
-            }
+function init() {
+    var fieldset = document.getElementsByClassName('player');
+    for (var i = 0; i < fieldset.length; i++) {
+        fieldset[i].addEventListener('mouseover', toggleClass, false);
+        fieldset[i].style.backgroundColor = "#1E90FF";
+        
+    }
+}
+
+function toggleClass(mouseover) {
+    
+      {
+        var fieldset = document.getElementsByClassName("player");
+        for (var i = 0; i < chars.length; i++) {
+            chars[i].classList.toggle("on");
+            chars[i].style.backgroundColor = "#1E90FF";
         }
         }
         };
@@ -27,7 +34,7 @@ function nlcs1() {
     var pars = document.getElementId("1981")
     li.innerHTML = "1981"
     for (var i = 0, length = pars.length; i < length; i++) {
-        pars[i].style.backgroundColor = "DodgerBlue";
+        pars[i].style.backgroundColor = "#1E90FF";
     }
     }
 function nlcs2(){
